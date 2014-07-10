@@ -1,7 +1,7 @@
 \name{removeTypo}
 \alias{removeTypo}
 \title{
-Remove mistaken estimate(s) from the records
+Remove mistaken estimate(s) from record
 }
 \description{
 This function removes one or more records that may have originated from mistyped estimates in the VisCountSessions data.
@@ -10,19 +10,16 @@ This function removes one or more records that may have originated from mistyped
 removeTypo(row = nrow(VisCountSessions))
 }
 \arguments{
-  \item{row}{
-Index number(s) of the row(s) of the VisCountSessions table to remove.
-}
+  \item{row}{Index number(s) of the row(s) of the \code{VisCountSessions} table to remove.}
 }
 \details{
 }
 \value{
-This function invisibly returns the VisCountSessions table after removal of the specified rows.
+This function invisibly returns the new \code{VisCountSessions} table after removal of the specified rows.
 }
 \references{
 }
-\author{
-A. Marcia Barbosa}
+\author{A. Marcia Barbosa}
 \note{
 }
 \seealso{
