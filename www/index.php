@@ -43,7 +43,27 @@ echo $contents; } ?>
 
 <!-- end of project description -->
 
-<p> No content added. </p>
+<p> <i>VisCount</i> allows you to train rapid visual estimates of the number of individuals (symbols) in the plotting window, enter your estimates, and get a series of insightful statistics on your performance and how it evolves along different training sessions.</p>
+
+<p> To <b>install</b> the package directly from R-Forge, paste the following command in the R console (when connected to the internet):</p>
+<code>
+install.packages("VisCount", repos="http://R-Forge.R-project.org")<br />
+</code>
+<p>If this fails, download the compressed package source files (.zip or .tar.gz at https://r-forge.r-project.org/R/?group_id=1923) and then install the package from your disk (something like "Packages - Install packages from local zip files", or "Tools - Install packages - Install from: Package Archive File", ... depending on your R interface menus).</p>
+
+<p>You only need to install the package once, but then every time you re-open R you need to <b>load</b> it by typing:</p>
+<code>
+library(VisCount)<br />
+</code>
+
+<p>You can then check out the package help files and try out the provided <b>examples</b> to get a sense of the <i>VisCount</i> workflow:</p>
+<code>
+help("VisCount")<br />
+</code>
+
+<p> There is also a <b>forthcoming article</b> about the package containing applications and user guidelines. The provisional reference is:</p>
+
+<p><i> Barbosa A.M. (submitted) VisCount: a free and simple software tool to train instant visual counts of individuals.</i></p>
 
 <p> The <strong>project summary page</strong> you can find <a href="http://<?php echo $domain; ?>/projects/<?php echo $group_name; ?>/"><strong>here</strong></a>. </p>
 
