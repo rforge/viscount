@@ -1,5 +1,4 @@
-VisCount <-
-function(Nmax = 100, Nmin = 5, shape = 20, size = 0.5) {
+VisCount <- function(Nmax = 100, Nmin = 5, shape = 20, size = 0.5, col = "black") {
   
   if(!exists("session")) session <<- 1
   
@@ -12,7 +11,7 @@ function(Nmax = 100, Nmin = 5, shape = 20, size = 0.5) {
   N <- sample(Nmin : Nmax, 1)
   
   par(mfrow = c(1, 1), mar = c(0, 0, 0, 0))
-  plot(runif(N), runif(N), pch = shape, cex = size, axes = FALSE, xlab = "", ylab = "")
+  plot(runif(N), runif(N), pch = shape, cex = size, col = col, axes = FALSE, xlab = "", ylab = "")
 
   estimate <- readline("Type your estimated number of plotted items and press enter: ")
   estimate <- as.integer(estimate)

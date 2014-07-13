@@ -21,7 +21,7 @@ VisCountStats <- function(sessions = unique(VisCountSessions$Session), VCSession
         r2 <- 1 - (t(resid) %*% resid)/(t(yy) %*% yy)
         return(r2)
       }  # end rSquared{micEcon} function
-      OverallAccuracy <- with(TrialStats, rSquared(TrueNumber, Error))
+      OverallAccuracy <- with(TrialStats, rSquared(TrueNumber, abs(Error)))
       
       SessionStats <- data.frame(Session = available.sessions)
       SessionStats$DateTimeEnd <- with(TrialStats, tapply(DateTime, Session, max))
@@ -30,7 +30,7 @@ VisCountStats <- function(sessions = unique(VisCountSessions$Session), VCSession
       SessionStats$TotalError <- with(SessionStats, TotalEstimate - TotalNumber)
       SessionStats$ProportionalError <- with(SessionStats, round(TotalError / TotalNumber, 3))
       for (s in available.sessions) {
-        SessionStats[SessionStats$Session == s, "SessionAccuracy"] <- with(subset(TrialStats, Session == s), rSquared(TrueNumber, Error))
+        SessionStats[SessionStats$Session == s, "SessionAccuracy"] <- with(subset(TrialStats, Session == s), rSquared(TrueNumber, abs(Error)))
       }
       
       if (plot) {

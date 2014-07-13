@@ -2,7 +2,7 @@
 \alias{VisCount-package}
 \alias{VisCount}
 \docType{package}
-\title{A free and simple software tool to train instant visual counts of individuals}
+\title{R package for training and evaluating visual count estimates}
 \description{
 The VisCount package allows you to train rapid visual estimates of the number of individuals (symbols) in the plotting window, enter your estimates, and get a series of insightful statistics on your performance and how it evolves along different training sessions.
 }
@@ -30,6 +30,9 @@ getSavedResults()
 
 # practise VisCount and enter your estimates as prompted:
 VisCount()  # repeat until bored
+
+# if your last estimate was a mistake, remove it from record:
+removeTypo()
 
 # check out your performance statistics:
 VisCountStats()
