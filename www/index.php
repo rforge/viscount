@@ -49,7 +49,8 @@ echo $contents; } ?>
 <code>
 install.packages("VisCount", repos="http://R-Forge.R-project.org")<br />
 </code>
-<p>If this fails, download the compressed package source files (.zip or .tar.gz at https://r-forge.r-project.org/R/?group_id=1923) and then install the package from your disk (something like "Packages - Install packages from local zip files", or "Tools - Install packages - Install from: Package Archive File", ... depending on your R interface menus).</p>
+
+<p>If the command above fails, producing a message like "package 'VisCount' is not available for your R version", you can download the compressed package source files (.zip or .tar.gz available <a href="https://r-forge.r-project.org/R/?group_id=1923">here</a>) and then install the package from your disk (R menu "Packages - Install packages from local zip files", or "Tools - Install packages - Install from: Package Archive File", ... depending on your R menu interface).</p>
 
 <p>You only need to install the package once, but then every time you re-open R you need to <b>load</b> it by typing:</p>
 <code>
@@ -63,7 +64,7 @@ help("VisCount")<br />
 
 <p> There is also a <b>forthcoming article</b> about the package containing applications and user guidelines. The provisional reference is:</p>
 
-<p><i> Barbosa A.M. (submitted) VisCount: a free and simple software tool to train instant visual counts of individuals.</i></p>
+<p><i> Barbosa A.M. (submitted) VisCount: a free software tool to train and evaluate visual count estimates.</i></p>
 
 <p> The <strong>project summary page</strong> you can find <a href="http://<?php echo $domain; ?>/projects/<?php echo $group_name; ?>/"><strong>here</strong></a>. </p>
 
