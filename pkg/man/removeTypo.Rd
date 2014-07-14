@@ -7,15 +7,15 @@ Remove mistaken estimate(s) from record
 This function removes one or more records that may have originated from mistyped estimates in the VisCountSessions data.
 }
 \usage{
-removeTypo(row = nrow(VisCountSessions))
+removeTypo(trial = max(VisCountSessions$Trial))
 }
 \arguments{
-  \item{row}{Index number(s) of the row(s) of the \code{VisCountSessions} table to remove.}
+  \item{trial}{\code{Trial}(s) of \code{VisCountSessions} to remove from record. The default (if no trial is specified) is the last one.}
 }
 \details{
 }
 \value{
-This function invisibly returns the new \code{VisCountSessions} table after removal of the specified rows.
+This function invisibly returns the new \code{VisCountSessions} table after removal of the specified trial(s).
 }
 \references{
 }
@@ -28,5 +28,6 @@ This function invisibly returns the new \code{VisCountSessions} table after remo
 removeTypo()
 removeTypo(3)
 removeTypo(3:5)
+removeTypo(c(3,5))
 }
 \keyword{ ~kwd1 }

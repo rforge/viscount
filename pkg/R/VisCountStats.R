@@ -1,19 +1,19 @@
 VisCountStats <- function(sessions = unique(VisCountSessions$Session), VCSessions = VisCountSessions, plot = TRUE) {
   
-  msg <- "No VisCount results to calculate stats on. Use VisCount() a few times first, providing some count estimates."
+  msg <- "No VisCount results to calculate stats on. Use VisCount() a few times first,\nproviding some count estimates."
   
   if (!exists("VisCountSessions"))  message(msg)
   # messages instead of errors to avoid problems on package check
   
   else {
     VisCountSessions <- VCSessions[complete.cases(VCSessions), ]
-    if (nrow(VisCountSessions) < nrow(VCSessions)) message("Some VisCount trials removed from analysis because no numeric estimate was provided by the user.")
+    if (nrow(VisCountSessions) < nrow(VCSessions)) message("Some VisCount trials removed from analysis\nbecause no numeric estimate was provided by the user.")
     if (nrow(VisCountSessions) == 0)  message(msg)
-    else if (nrow(VisCountSessions) == 1)  message("Only one VisCount estimate is not enough to calculate stats. Use VisCount() a few times first, providing some count estimates.")
+    else if (nrow(VisCountSessions) == 1)  message("Only one VisCount estimate is not enough to calculate stats.\nUse VisCount() a few times first, providing some count estimates.")
     else {
       TrialStats <- subset(VisCountSessions, Session %in% sessions)
       available.sessions <- sessions[sessions %in% unique(TrialStats$Session)]
-      if (length(sessions) > length(available.sessions)) warning("One or more of the specified sessions not found in the VisCountSessions table; only available sessions were used.")
+      if (length(sessions) > length(available.sessions)) message("One or more of the specified sessions not found in the VisCountSessions table;\nonly available sessions were used.")
       TrialStats$Error <- with(TrialStats, MyEstimate - TrueNumber)
       TrialStats$ProportionalError <- with(TrialStats, round(Error / TrueNumber, 3))
       rSquared <- function (y, resid) {  # function copied from package micEcon

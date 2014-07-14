@@ -3,7 +3,7 @@ VisCount <- function(Nmax = 100, Nmin = 5, shape = 20, size = 0.5, col = "black"
   if(!exists("session")) session <<- 1
   
   if(!exists("VisCountSessions")) {
-    message("NOTE: If you have a previously saved VisCountSessions table, use getSavedResults() before using VisCount(), so that the table is updated with results from the current session.")
+    message("NOTE: If you have a previously saved VisCountSessions table, use\ngetSavedResults() before using VisCount(), so that the table is updated\nwith results from the current session.")
     VisCountSessions <- data.frame(Trial = integer(), Session = integer(), DateTime = character(), Nmax = integer(), Nmin = integer(), MyEstimate = integer(), TrueNumber = integer(), Error = integer(), ProportionalError = numeric(), stringsAsFactors = FALSE)
   }  # end if exists
   

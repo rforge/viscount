@@ -20,6 +20,7 @@ A. Marcia Barbosa
 Maintainer: A. Marcia Barbosa <barbosa@uevora.pt>
 }
 \references{
+Barbosa A.M. (submitted) VisCount: a free software tool to train and evaluate visual count estimates.
 }
 \keyword{ package }
 \seealso{
@@ -31,11 +32,22 @@ getSavedResults()
 # practise VisCount and enter your estimates as prompted:
 VisCount()  # repeat until bored
 
+# practise also with different shapes, sizes and colours:
+VisCount(shape = "^")
+VisCount(shape = "~", size = 1.3)
+VisCount(shape = "x", size = 1, col = "pink")
+
+# practise with different number limits:
+VisCount(Nmax = 500, Nmin = 100, shape = "^")
+
 # if your last estimate was a mistake, remove it from record:
 removeTypo()
 
 # check out your performance statistics:
 VisCountStats()
+
+# remove particular trials (e.g. 3 and 7) from records and stats:
+removeTypo(c(3, 7))
 
 # check performance stats for particular sessions:
 VisCountStats(c(1, 3:7))
