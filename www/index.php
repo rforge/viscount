@@ -33,7 +33,7 @@ echo '<?xml version="1.0" encoding="UTF-8"?>';
 <!-- get project title  -->
 <!-- own website starts here, the following may be changed as you like -->
 
-<img src="VisCountLogo_small.png"/>
+<div style="text-align: right;"><img src="VisCountLogo_small.png"/></div>
 
 <font face="helvetica, verdana, arial"> 
 
@@ -49,16 +49,16 @@ echo $contents; } ?>
 
 <p> <b><i><big>VisCount</big></i></b> allows you to train rapid visual estimates of the number of individuals (symbols) in the plotting window, enter your estimates, and get a series of insightful statistics on your performance and how it evolves along different training sessions.</p>
 
-<img src="VisCount_hats.jpeg">
-<img src="VisCount_tildes.jpeg"><br/>
-<img src="VisCount_stats.jpeg">
+<img src="VisCount_hats.jpeg" class="bordered"/>    <img src="VisCount_tildes.jpeg" class="bordered"/><br/>
+<div style="text-align: center;"><img src="VisCount_stats.jpeg"></div>
+
 
 <p> To <b><big>install</big></b> the package directly from R-Forge, paste the following command in the R console (when connected to the internet):</p>
 <code>
 install.packages("VisCount", repos="http://R-Forge.R-project.org")<br />
 </code>
 
-<p>If the command above fails, producing a message like "<i>package 'VisCount' is not available for your R version</i>", you can download the compressed package source files to your disk (<i>.zip</i> or <i>.tar.gz</i> available <a href="https://r-forge.r-project.org/R/?group_id=1923">here</a>) and then install the package from there (R menu "<i>Packages - Install packages from local zip files</i>", or "<i>Tools - Install packages - Install from: Package Archive File</i>", or "Packages & Data - Package installer, Packages repository - Local binary package", ... depending on your R menu interface).</p>
+<p>If the command above fails, producing a message like "<i>package 'VisCount' is not available for your R version</i>", you can download the compressed package source files to your disk (<i>.zip</i> or <i>.tar.gz</i> available <a href="https://r-forge.r-project.org/R/?group_id=1923">here</a>) and then install the package from there (R menu "<i>Packages - Install packages from local zip files</i>", or "<i>Tools - Install packages - Install from: Package Archive File</i>", or "<i>Packages & Data - Package installer, Packages repository - Local binary package</i>", ... depending on your R menu interface).</p>
 
 <p>You only need to install the package once, but then every time you re-open R you need to <b><big>load</big></b> it by typing:</p>
 <code>
