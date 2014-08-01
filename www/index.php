@@ -50,7 +50,7 @@ echo $contents; } ?>
 <p> <b><i><big>VisCount</big></i></b> allows you to train rapid visual estimates of the number of individuals (symbols) in the plotting window, enter your estimates, and get a series of insightful statistics on your performance and how it evolves along different training sessions.</p>
 
 <div style="text-align: center;">
-<img src="VisCount_hats.jpeg" border="1" />    <img src="VisCount_tildes.jpeg" border="1" />
+<img src="VisCount_hats.png" border="1" />    <img src="VisCount_tildes.png" border="1" />
 <br/>
 <img src="VisCountStats.png">
 </div>
