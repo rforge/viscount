@@ -47,7 +47,9 @@ VisCountStats <- function(sessions = unique(VisCountSessions$Session), VCSession
         mtext("True number", side = 2, line = 2, col = "darkgrey", cex = 0.8)
         
         # plot 2:
-        with(TrialStats, plot(x = NULL, y = NULL, xlim = c(minNum, maxNum), ylim = c(minNum, maxNum), xlab = "True number", ylab = "My estimate"))
+        with(TrialStats, plot(x = NULL, y = NULL, xlim = c(minNum, maxNum), ylim = c(minNum, maxNum), xlab = "True number", ylab = ""))
+        mtext("My estimate", side = 2, line = 3, col = "black", cex = 0.8)
+        mtext("(number = session)", side = 2, line = 2, col = "black", cex = 0.7)
         with(TrialStats, points(MyEstimate ~ TrueNumber, pch = as.character(Session), cex = 0.7))
         abline(a = 0, b = 1, col = "darkgrey", lty = 2)  # equality line
         text(x = minNum, y = maxNum, adj = c(0, 1), substitute(paste(Accuracy == a), list(a = round(OverallAccuracy, 2))))
