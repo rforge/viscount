@@ -21,8 +21,6 @@ echo '<?xml version="1.0" encoding="UTF-8"?>';
 	<link href="http://<?php echo $themeroot; ?>styles/estilo1.css" rel="stylesheet" type="text/css" />
   </head>
 
-<body bgcolor="#FEFCFF">
-
 <!-- R-Forge Logo -->
 <table border="0" width="100%" cellspacing="0" cellpadding="0">
 <tr><td>
@@ -51,7 +49,8 @@ echo $contents; } ?>
 
 <div style="text-align: center;">
 <img src="VisCount_hats.png" border="1" />    <img src="VisCount_tildes.png" border="1" />
-<br/>
+<br/><br/>
+<p>Enter your estimate each time, repeat over one or more R sessions, and get your performance statistics:</p><br/>
 <img src="VisCountStats.png">
 </div>
 
@@ -60,7 +59,7 @@ echo $contents; } ?>
 install.packages("VisCount", repos="http://R-Forge.R-project.org")<br />
 </code>
 
-<p>If the command above fails, producing a message like "<i>package 'VisCount' is not available for your R version</i>", you can download the compressed package source files to your disk (<i>.zip</i> or <i>.tar.gz</i> available <a href="https://r-forge.r-project.org/R/?group_id=1923">here</a>) and then install the package from there (R menu "<i>Packages - Install packages from local zip files</i>", or "<i>Tools - Install packages - Install from: Package Archive File</i>", or "<i>Packages & Data - Package installer, Packages repository - Local binary package</i>", ... depending on your R menu interface).</p>
+<p>This should normally work under the latest version of R. If it fails, producing a message like "<i>package 'VisCount' is not available for your R version</i>", you can either upgrade R <i>or</i> download the compressed package source files to your disk (<i>.zip</i> or <i>.tar.gz</i> available <a href="https://r-forge.r-project.org/R/?group_id=1923">here</a>) and then install the package from there (R menu "<i>Packages - Install packages from local zip files</i>", or "<i>Tools - Install packages - Install from: Package Archive File</i>", or "<i>Packages & Data - Package installer, Packages repository - Local binary package</i>", ... depending on your R interface).</p>
 
 <p>You only need to install the package once, but then every time you re-open R you need to <b><big>load</big></b> it by typing:</p>
 <code>
@@ -77,6 +76,9 @@ help("VisCount")<br />
 <p><i> Barbosa A.M. (submitted) VisCount: a free software tool to train and evaluate visual count estimates.</i></p>
 
 <p> The project summary page you can find <a href="http://<?php echo $domain; ?>/projects/<?php echo $group_name; ?>/"><strong>here</strong></a>. </p>
+
+<font color="grey"> 
+<br /><p><small>NOTE: The VisCount logo on top of this page <a href="http://blogs.estadao.com.br/estadinho/a-turma-toda/">borrows an image</a> of the <i>Viscount of Sabugosa</i>, a character from the novel series <a href="http://en.wikipedia.org/wiki/Yellow_Woodpecker_Farm"><i>S&iacute;tio do Picapau Amarelo</i></a> created by Monteiro Lobato. Hope they won't mind!</small></p>
 
 </font>
 </body>
