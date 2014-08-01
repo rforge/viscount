@@ -52,7 +52,7 @@ echo $contents; } ?>
 <div style="text-align: center;">
 <img src="VisCount_hats.jpeg" class="bordered"/>    <img src="VisCount_tildes.jpeg" class="bordered"/>
 <br/>
-<img src="VisCount_stats.jpeg">
+<img src="VisCountStats.jpeg">
 </div>
 
 
