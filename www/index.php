@@ -33,7 +33,7 @@ echo '<?xml version="1.0" encoding="UTF-8"?>';
 <!-- get project title  -->
 <!-- own website starts here, the following may be changed as you like -->
 
-<div style="text-align: right;"><img src="VisCountLogo_small.png"/></div>
+<div style="text-align: center;"><img src="VisCountLogo_small.png"/></div>
 
 <font face="helvetica, verdana, arial"> 
 
@@ -50,11 +50,10 @@ echo $contents; } ?>
 <p> <b><i><big>VisCount</big></i></b> allows you to train rapid visual estimates of the number of individuals (symbols) in the plotting window, enter your estimates, and get a series of insightful statistics on your performance and how it evolves along different training sessions.</p>
 
 <div style="text-align: center;">
-<img src="VisCount_hats.jpeg" class="bordered"/>    <img src="VisCount_tildes.jpeg" class="bordered"/>
+<img src="VisCount_hats.jpeg" border="1" />    <img src="VisCount_tildes.jpeg" border="1" />
 <br/>
-<img src="VisCountStats.jpeg">
+<img src="VisCountStats.png">
 </div>
-
 
 <p> To <b><big>install</big></b> the package directly from R-Forge, paste the following command in the R console (when connected to the internet):</p>
 <code>
