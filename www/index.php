@@ -73,12 +73,12 @@ help("VisCount")<br />
 
 <p> There is also a <b>forthcoming article</b> about the package containing applications and general user guidelines. The provisional reference is:</p>
 
-<p><i> Barbosa A.M. (submitted) VisCount: a free software tool to train and evaluate visual count estimates.</i></p>
+<p><i> Barbosa A.M. (in review) VisCount: a free software tool to train and evaluate visual count estimates.</i></p>
 
 <p> The project summary page you can find <a href="http://<?php echo $domain; ?>/projects/<?php echo $group_name; ?>/"><strong>here</strong></a>. </p>
 
 <font color="grey"> 
-<br /><p><small>NOTE: The VisCount logo on top of this page <a href="http://blogs.estadao.com.br/estadinho/a-turma-toda/">borrows an image</a> of the <i>Viscount of Sabugosa</i>, a character from the novel series <a href="http://en.wikipedia.org/wiki/Yellow_Woodpecker_Farm"><i>S&iacute;tio do Picapau Amarelo</i></a> created by Monteiro Lobato. Hope they won't mind!</small></p>
+<br /><p><small>NOTE: The VisCount logo on top of this page <a href="http://lobato.globo.com/misc_perssitio.asp">borrows an image</a> of the <i>Viscount of Sabugosa</i>, a character from the novel series <a href="http://en.wikipedia.org/wiki/Yellow_Woodpecker_Farm"><i>S&iacute;tio do Picapau Amarelo</i></a> created by Monteiro Lobato. Authorization for use of the image is pending.</small></p>
 
 </font>
 </body>
