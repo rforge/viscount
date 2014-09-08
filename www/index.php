@@ -45,7 +45,7 @@ echo $contents; } ?>
 
 <!-- end of project description -->
 
-<p> <b><i><big>VisCount</big></i></b> allows you to train rapid visual estimates of the number of individuals (symbols) in the plotting window, enter your estimates, and get a series of insightful statistics on your performance and how it evolves along different training sessions.</p>
+<p> <b><i><big>VisCount</big></i></b> allows you to train rapid visual estimates of the number of individuals (symbols) in the plotting window and get a series of insightful statistics on your performance and how it evolves along different training sessions. It can also be a practical and economical tool for the <b>training and calibration of field teams</b> collecting information on the sizes of flocks or populations.</p>
 
 <div style="text-align: center;">
 <img src="VisCount_hats.png" border="1" />    <img src="VisCount_tildes.png" border="1" />
@@ -77,8 +77,8 @@ help("VisCount")<br />
 
 <p> The project summary page you can find <a href="http://<?php echo $domain; ?>/projects/<?php echo $group_name; ?>/"><strong>here</strong></a>. </p>
 
-<font color="grey"> 
-<br /><p><small>NOTE: The VisCount logo on top of this page <a href="http://lobato.globo.com/misc_perssitio.asp">borrows an image</a> of the <i>Viscount of Sabugosa</i>, a character from the novel series <a href="http://en.wikipedia.org/wiki/Yellow_Woodpecker_Farm"><i>S&iacute;tio do Picapau Amarelo</i></a> created by Monteiro Lobato. Authorization for use of the image is pending.</small></p>
+<font color=#2C3539> 
+<br /><p><small>NOTE: The <i>VisCount</i> logo on top of this page <a href="http://lobato.globo.com/misc_perssitio.asp">borrows an image</a> of the <i>Viscount of Sabugosa</i>, a character from the novel series <a href="http://en.wikipedia.org/wiki/Yellow_Woodpecker_Farm"><i>S&iacute;tio do Picapau Amarelo</i></a> created by <a href="https://en.wikipedia.org/wiki/Monteiro_Lobato">Monteiro Lobato</a> and licensed by TV Globo. Authorization for use of the image is pending.</small></p>
 
 </font>
 </body>
