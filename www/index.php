@@ -45,7 +45,7 @@ echo $contents; } ?>
 
 <!-- end of project description -->
 
-<p> <b><i><big>VisCount</big></i></b> allows you to train rapid visual estimates of the number of individuals (symbols) in the plotting window and get a series of insightful statistics on your performance and how it evolves along different training sessions. It can also be a practical and economical tool for the <b>training and calibration of field teams</b> collecting information on the sizes of flocks or populations.</p>
+<p> <b><i><big>VisCount</big></i></b> allows you to train rapid visual estimates of the number of individuals (symbols) in the plotting window and get a series of insightful statistics on your performance and how it evolves along different training sessions. It can also be a practical and economical tool for the <b>training and calibration of field teams</b> collecting information on the sizes of flocks or populations.</p><br/>
 
 <div style="text-align: center;">
 <img src="VisCount_hats.png" border="1" />    <img src="VisCount_tildes.png" border="1" />
@@ -54,7 +54,7 @@ echo $contents; } ?>
 <img src="VisCountStats.png">
 </div>
 
-<p> To <b><big>install</big></b> the package directly from R-Forge, paste the following command in the R console (when connected to the internet):</p>
+<p> To <b><big>install</big></b> the package directly from R-Forge, paste the following command in the R console (while connected to the internet):</p>
 <code>
 install.packages("VisCount", repos="http://R-Forge.R-project.org")<br />
 </code>
@@ -78,7 +78,7 @@ help("VisCount")<br />
 <p> The project summary page you can find <a href="http://<?php echo $domain; ?>/projects/<?php echo $group_name; ?>/"><strong>here</strong></a>. </p>
 
 <font color=#2C3539> 
-<br /><p><small>NOTE: The <i>VisCount</i> logo on top of this page <a href="http://lobato.globo.com/misc_perssitio.asp">borrows an image</a> of the <i>Viscount of Sabugosa</i>, a character from the novel series <a href="http://en.wikipedia.org/wiki/Yellow_Woodpecker_Farm"><i>S&iacute;tio do Picapau Amarelo</i></a> created by <a href="https://en.wikipedia.org/wiki/Monteiro_Lobato">Monteiro Lobato</a> and licensed by TV Globo. Authorization for use of the image is pending.</small></p>
+<br /><p><small>NOTE: The <i>VisCount</i> logo on top of this page uses <a href="http://lobato.globo.com/misc_perssitio.asp">an image of the <i>Viscount of Sabugosa</i></a>, a character from the novel series <a href="http://en.wikipedia.org/wiki/Yellow_Woodpecker_Farm"><i>S&iacute;tio do Picapau Amarelo</i></a> created by <a href="https://en.wikipedia.org/wiki/Monteiro_Lobato">Monteiro Lobato</a> and licensed by TV Globo. Authorization for use of the image has been granted &#150; thanks!</small></p>
 
 </font>
 </body>
