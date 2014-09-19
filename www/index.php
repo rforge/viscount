@@ -45,7 +45,7 @@ echo $contents; } ?>
 
 <!-- end of project description -->
 
-<p> <b><i><big>VisCount</big></i></b> allows you to train rapid visual estimates of the number of individuals (symbols) in the plotting window and get a series of insightful statistics on your performance and how it evolves along different training sessions. It can also be a practical and economical tool for the <b>training and calibration of field teams</b> collecting information on the sizes of flocks or populations.</p><br/>
+<p> <b><i><big>VisCount</big></i></b> allows you to train rapid visual estimates of the number of individuals (symbols) in the plotting window and get a series of insightful statistics on your performance and how it evolves along different training sessions. It can also be a practical and economical tool for the training and calibration of field teams collecting information on the sizes of flocks or populations.</p><br/>
 
 <div style="text-align: center;">
 <img src="VisCount_hats.png" border="1" />    <img src="VisCount_tildes.png" border="1" />
@@ -66,14 +66,14 @@ install.packages("VisCount", repos="http://R-Forge.R-project.org")<br />
 library(VisCount)<br />
 </code>
 
-<p>You can then check out the package help files and try out the provided <b><big>examples</big></b> to get a sense of the <i>VisCount</i> workflow:</p>
+<p>You can then check out the package help files and try the provided <b><big>examples</big></b> to get a sense of the <i>VisCount</i> workflow:</p>
 <code>
 help("VisCount")<br />
 </code>
 
-<p> There is also a <b>forthcoming article</b> about the package containing applications and general user guidelines. The provisional reference is:</p>
+<p> A <b><a href="VisCount-manual.pdf">reference <big>manual</big></a></b> based on the package help files is available in PDF format. There is also a <b>forthcoming <big>article</big></b> about the package containing applications and general user guidelines. The provisional reference is:</p>
 
-<p><i> Barbosa A.M. (in review) VisCount: a free software tool to train and evaluate visual count estimates.</i></p>
+<p><i> Barbosa A.M. (submitted) VisCount: a free software tool to train and evaluate visual count estimates.</i></p>
 
 <p> The project summary page you can find <a href="http://<?php echo $domain; ?>/projects/<?php echo $group_name; ?>/"><strong>here</strong></a>. </p>
 

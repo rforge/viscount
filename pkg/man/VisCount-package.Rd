@@ -4,7 +4,12 @@
 \docType{package}
 \title{R package for training and evaluating visual count estimates}
 \description{
-The VisCount package allows you to train rapid visual estimates of the number of individuals (symbols) in the plotting window, enter your estimates, and get a series of insightful statistics on your performance and how it evolves along different training sessions.
+The VisCount package allows you to train rapid visual estimates of the number of 
+individuals (symbols) in the plotting window, enter your estimates, and get a 
+series of insightful statistics on your performance and how it evolves along 
+different training sessions. It can also be a practical and economical tool for 
+the training and calibration of field teams collecting information on the sizes 
+of flocks or populations.
 }
 \details{
 \tabular{ll}{
@@ -20,7 +25,8 @@ A. Marcia Barbosa
 Maintainer: A. Marcia Barbosa <barbosa@uevora.pt>
 }
 \references{
-Barbosa A.M. (submitted) VisCount: a free software tool to train and evaluate visual count estimates.
+Barbosa A.M. (submitted) VisCount: a free software tool to train and evaluate 
+visual count estimates.
 }
 \keyword{ package }
 \seealso{
