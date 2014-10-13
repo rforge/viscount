@@ -1,8 +1,8 @@
 Package: VisCount
 Type: Package
 Title: R package for training and evaluating visual count estimates
-Version: 1.0
-Date: 2014-07-09
+Version: 1.1
+Date: 2014-10-13
 Author: Barbosa A.M.
 Maintainer: A. Marcia Barbosa <barbosa@uevora.pt>
 Description: VisCount allows you to train rapid visual estimates of the number of individuals (symbols) in the plotting window, enter your estimates, and get a series of insightful statistics on your performance and how it evolves along different training sessions. It can also be a practical and economical tool for the training and calibration of field teams collecting information on the sizes of flocks or populations.

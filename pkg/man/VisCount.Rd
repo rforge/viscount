@@ -12,14 +12,15 @@ which you can retrieve later and which can be used by the \code{\link{VisCountSt
 function to provide performance statistics.
 }
 \usage{
-VisCount(Nmax = 100, Nmin = 5, shape = 20, size = 0.5, col = "black")
+VisCount(Nmax = 100, Nmin = 5, shape = 20, size = 1, col = "black", bg = "lightblue")
 }
 \arguments{
   \item{Nmax}{maximum number of symbols to plot}
   \item{Nmin}{minimum number of symbols to plot}
-  \item{shape}{plotting symbols to use (see 'pch' values in \code{\link{points}})}
+  \item{shape}{plotting items to use. Can be one of the plotting symbols available in R (see 'pch' values in \code{\link{points}}), such as the default 20 for a black dot, or the complete folder path (in quotes and including file name and extension) to a .png image, preferably with transparent background (see examples).}
   \item{size}{size for the plotting symbols (see 'cex' in \code{\link{points}})}
-  \item{col}{colour for the plotting symbols (see 'col' in \code{\link{points}})}
+  \item{col}{colour for the plotting symbols (see 'col' in \code{\link{points}}). The default is "black". Ignored if 'shape' is a .png image.}
+  \item{bg}{colour for the plot background (see 'bg' in \code{\link{par}}). The default is "lightblue".}
 }
 \details{
 }

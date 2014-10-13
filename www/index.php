@@ -45,6 +45,8 @@ echo $contents; } ?>
 
 <!-- end of project description -->
 
+<p> <font color="blue"> Version 1.1 now available! </font> </p>
+
 <p> <b><i><big>VisCount</big></i></b> allows you to train rapid visual estimates of the number of individuals (symbols) in the plotting window and get a series of insightful statistics on your performance and how it evolves along different training sessions. It can also be a practical and economical tool for the training and calibration of field teams collecting information on the sizes of flocks or populations.</p><br/>
 
 <div style="text-align: center;">
@@ -53,7 +55,7 @@ echo $contents; } ?>
 <img src="flamingos_on_clouds.png" border="1" />    <img src="gulls_on_water.png" border="1" />
 <br/><br/>
 
-<p>Enter your estimate each time, repeat over one or more R sessions, and get your performance statistics:</p><br/>
+<p>Enter your number estimate each time, repeat over one or more R sessions, and get your performance statistics:</p><br/>
 <img src="VisCountStats.png">
 </div>
 
