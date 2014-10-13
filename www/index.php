@@ -49,7 +49,10 @@ echo $contents; } ?>
 
 <div style="text-align: center;">
 <img src="VisCount_hats.png" border="1" />    <img src="VisCount_tildes.png" border="1" />
+<br/>
+<img src="flamingos_on_clouds.png" border="1" />    <img src="gulls_on_water.png" border="1" />
 <br/><br/>
+
 <p>Enter your estimate each time, repeat over one or more R sessions, and get your performance statistics:</p><br/>
 <img src="VisCountStats.png">
 </div>
