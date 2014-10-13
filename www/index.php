@@ -48,7 +48,7 @@ echo $contents; } ?>
 <p> <b><i><big>VisCount</big></i></b> allows you to train rapid visual estimates of the number of individuals (symbols) in the plotting window and get a series of insightful statistics on your performance and how it evolves along different training sessions. It can also be a practical and economical tool for the training and calibration of field teams collecting information on the sizes of flocks or populations.</p><br/>
 
 <div style="text-align: center;">
-<img src="VisCount_hats.png" border="1" />    <img src="VisCount_tildes.png" border="1" />
+<img src="hats_on_white.png" border="1" />    <img src="tildes_on_blue.png" border="1" />
 <br/>
 <img src="flamingos_on_clouds.png" border="1" />    <img src="gulls_on_water.png" border="1" />
 <br/><br/>
@@ -69,7 +69,7 @@ install.packages("VisCount", repos="http://R-Forge.R-project.org")<br />
 library(VisCount)<br />
 </code>
 
-<p>You can then check out the package help files and try the provided <b><big>examples</big></b> to get a sense of the <i>VisCount</i> workflow:</p>
+<p>You can then check out the package help files and try the <b><big>examples</big></b> provided at the bottom, to get a sense of the <i>VisCount</i> workflow:</p>
 <code>
 help("VisCount")<br />
 </code>
