@@ -5,7 +5,10 @@ Remove mistaken estimate(s) from record
 }
 \description{
 This function removes one or more records that may have originated from mistyped 
-estimates in the VisCountSessions data.
+estimates in the VisCountSessions data. Note that this operation cannot be undone. 
+The resulting VisCountSessions table will silently overwrite the previous one 
+and, as all trials are numbered consecutively, the removed trials will be noticeably 
+missing from the table.
 }
 \usage{
 removeTypo(trial = max(VisCountSessions$Trial))

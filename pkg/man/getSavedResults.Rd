@@ -12,7 +12,7 @@ getSavedResults(path = "VisCountSessions.csv")
   \item{path}{complete folder path to the .csv file containing your 
 \code{VisCountSessions} data. The default is 'VisCountSessions.csv' in your 
 current working directory. You will only have this file if you have previously 
-used \code{VisCount()}, provided some estimates and used the \code{\link{saveResults}} 
+used \code{visCount()}, provided some estimates and used the \code{\link{saveResults}} 
 function to save your results to disk before quitting R.}
 }
 \details{
@@ -31,6 +31,6 @@ available, or that it was correctly loaded in the workspace.
 
 \examples{
 getSavedResults()
-getSavedResults(path = "/user/joey/myVisCount/VisCountSessions.csv")
+getSavedResults(path = "/user/joey/myvisCount/VisCountSessions.csv")
 }
 \keyword{ ~kwd1 }
