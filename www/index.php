@@ -64,7 +64,7 @@ echo $contents; } ?>
 install.packages("VisCount", repos="http://R-Forge.R-project.org")<br />
 </code>
 
-<p>This should normally work under the latest version of R. If it fails, producing a message like "<i>package 'VisCount' is not available for your R version</i>", you can either upgrade R <i>or</i> download the compressed package source files to your disk (<i>.zip</i> or <i>.tar.gz</i> available <a href="https://r-forge.r-project.org/R/?group_id=1923">here</a>) and then install the package from there (R menu "<i>Packages - Install packages from local zip files</i>", or "<i>Tools - Install packages - Install from: Package Archive File</i>", or "<i>Packages & Data - Package installer, Packages repository - Local binary package</i>", ... depending on your R interface).</p>
+<p>This should normally work under the latest version of R. If it fails, producing a message like "<i>package 'VisCount' is not available for your R version</i>", you can either upgrade R <i>or</i> download the compressed <b>package source files</b> to your disk (<i>.tar.gz</i> for Linux/Mac or <i>.zip</i> for Windows, <b>available <a href="https://r-forge.r-project.org/R/?group_id=1923">here</a> or <a href="https://www.dropbox.com/sh/0qg91w8v6keb1kd/AACCAYL4vl3J2Iyl-D46NxPVa?dl=0">here</a></b>) and then install the package from there (R menu "<i>Packages - Install packages from local zip files</i>", or "<i>Tools - Install packages - Install from: Package Archive File</i>", or "<i>Packages & Data - Package installer, Packages repository - Local binary package</i>", ... depending on your R interface).</p>
 
 <p>You only need to install the package once, but then every time you re-open R you need to <b><big>load</big></b> it by typing:</p>
 <code>
