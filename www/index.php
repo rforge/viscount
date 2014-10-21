@@ -31,7 +31,7 @@ echo '<?xml version="1.0" encoding="UTF-8"?>';
 <!-- get project title  -->
 <!-- own website starts here, the following may be changed as you like -->
 
-<div style="text-align: center;"><img src="images/VisCountLogo_small.png"/></div>
+<div style="text-align: center;"><img src="img/VisCount_logo.png"/></div>
 
 <font face="helvetica, verdana, arial"> 
 
@@ -50,13 +50,13 @@ echo $contents; } ?>
 <p> <b><i><big>VisCount</big></i></b> allows you to train rapid visual estimates of the number of individuals (symbols) in the plotting window and get a series of insightful statistics on your performance and how it evolves along different training sessions. It can also be a practical and economical tool for the training and calibration of field teams collecting information on the sizes of flocks or populations.</p><br/>
 
 <div style="text-align: center;">
-<img src="images/hats_on_white.png" border="1" />    <img src="images/tildes_on_blue.png" border="1" />
+<img src="img/hats_on_white.png" border="1" />    <img src="img/tildes_on_blue.png" border="1" />
 <br/>
-<img src="images/flamingos_on_clouds.png" border="1" />    <img src="images/gulls_on_water.png" border="1" />
+<img src="img/flamingos_on_clouds.png" border="1" />    <img src="img/gulls_on_water.png" border="1" />
 <br/><br/>
 
 <p>Enter your number estimate each time, repeat over one or more R sessions, and get your performance statistics:</p><br/>
-<img src="images/VisCountStats.png">
+<img src="img/VisCountStats.png">
 </div>
 
 <p> To <b><big>install</big></b> the package directly from R-Forge, paste the following command in the R console (while connected to the internet):</p>
