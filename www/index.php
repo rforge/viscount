@@ -56,7 +56,7 @@ echo $contents; } ?>
 <br/><br/>
 
 <p>Enter your number estimate each time, repeat over one or more R sessions, and get your performance statistics:</p><br/>
-<img src="img/VisCountStats.png">
+<img src="img/visCountStats.png">
 </div>
 
 <p> To <b><big>install</big></b> the package directly from R-Forge, paste the following command in the R console (while connected to the internet):</p>
