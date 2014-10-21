@@ -34,6 +34,18 @@ visual count estimates.
 \examples{
 \dontrun{
 
+# BASIC WORKFLOW:
+
+getSavedResults()  # do this at the start of any VisCount session
+
+visCount()  # repeat as desired
+
+saveResults()  # do this before quitting R
+
+
+
+# WITH MORE DETAIL:
+
 # load previous VisCount results
 # (if you've used VisCount before on this computer):
 
@@ -63,16 +75,16 @@ visCount(Nmax = 500, Nmin = 100)
 # (you need to have the png R package installed for this);
 # here are some examples with downloaded public domain images:
 
-download.file(url = "http://viscount.r-forge.r-project.org/flamingo_flying.png", 
+download.file(url = "http://viscount.r-forge.r-project.org/img/flamingo_flying.png", 
 destfile = "flamingo_flying.png")
-download.file(url = "http://viscount.r-forge.r-project.org/clouds.png", 
+download.file(url = "http://viscount.r-forge.r-project.org/img/clouds.png", 
 destfile = "clouds.png")
 visCount(shape = "flamingo_flying.png", bg = "lightblue")
 visCount(shape = "flamingo_flying.png", size = 0.5, bg = "clouds.png")
 
-download.file(url = "http://viscount.r-forge.r-project.org/gull_standing.png", 
+download.file(url = "http://viscount.r-forge.r-project.org/img/gull_standing.png", 
 destfile = "gull_standing.png")
-download.file(url = "http://viscount.r-forge.r-project.org/water.png", 
+download.file(url = "http://viscount.r-forge.r-project.org/img/water.png", 
 destfile = "water.png")
 visCount(shape = "gull_standing.png", bg = "grey")
 visCount(shape = "gull_standing.png", bg = "water.png")
