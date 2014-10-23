@@ -34,17 +34,17 @@ visual count estimates.
 \examples{
 \dontrun{
 
-# BASIC WORKFLOW:
+# MINIMUM WORKFLOW:
 
-getSavedResults()  # do this at the start of any VisCount session
+getSavedResults()  # do this at the start of any new VisCount session
 
-visCount()  # repeat as desired
+visCount()  # repeat as desired (additional options below)
 
 saveResults()  # do this before quitting R
 
 
 
-# WITH MORE DETAIL:
+# COMPLETE WORKFLOW:
 
 # load previous VisCount results
 # (if you've used VisCount before on this computer):
@@ -60,8 +60,11 @@ visCount()  # repeat until bored
 # practise also with different shapes, sizes, colours and backgrounds:
 
 visCount(shape = "^", bg = "white")
+
 visCount(shape = "~", size = 1.3)
+
 visCount(shape = "x", size = 2, col = "brown")
+
 visCount(shape = "Y", bg = "wheat")
 
 
@@ -79,14 +82,19 @@ download.file(url = "http://viscount.r-forge.r-project.org/img/flamingo_flying.p
 destfile = "flamingo_flying.png")
 download.file(url = "http://viscount.r-forge.r-project.org/img/clouds.png", 
 destfile = "clouds.png")
+
 visCount(shape = "flamingo_flying.png", bg = "lightblue")
+
 visCount(shape = "flamingo_flying.png", size = 0.5, bg = "clouds.png")
+
 
 download.file(url = "http://viscount.r-forge.r-project.org/img/gull_standing.png", 
 destfile = "gull_standing.png")
 download.file(url = "http://viscount.r-forge.r-project.org/img/water.png", 
 destfile = "water.png")
+
 visCount(shape = "gull_standing.png", bg = "grey")
+
 visCount(shape = "gull_standing.png", bg = "water.png")
 
 

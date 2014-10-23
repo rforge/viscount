@@ -12,7 +12,7 @@ table which you can retrieve later and which can be used by the \code{\link{visC
 function to provide performance statistics.
 }
 \usage{
-visCount(Nmax = 100, Nmin = 10, shape = 20, size = 1, col = "black", bg = "lightblue")
+visCount(Nmax = 100, Nmin = 10, shape = 20, size = 1, col = "black", bg = "white")
 }
 \arguments{
   \item{Nmax}{maximum number of symbols to plot; defaults to 100.}
@@ -20,11 +20,10 @@ visCount(Nmax = 100, Nmin = 10, shape = 20, size = 1, col = "black", bg = "light
   \item{shape}{plotting items to use. Can be one of the plotting symbols available in 
   R (see 'pch' values in \code{\link{points}}), such as the default 20 for a black 
   dot, or a keyboard character in quotes, or the complete folder path (in quotes and 
-  including file name and extension) to a .png image, preferably with transparent 
-  background (see examples).}
+  including the file name and extension) to a .png image of the subject to count, preferably with transparent background (see examples).}
   \item{size}{size for the plotting symbols (see 'cex' in \code{\link{points}})}
   \item{col}{colour for the plotting symbols (see 'col' in \code{\link{points}}). The default is "black". Ignored if \code{shape} is a .png image.}
-  \item{bg}{colour for the plot background (see 'bg' in \code{\link{par}}, and type \code{colours()} for available colour names in R). The default is "lightblue". Ignored if \code{bg} is a .png image.}
+  \item{bg}{colour for the plot background. Can be one of the colours available in R (see 'bg' in \code{\link{par}}, and type \code{colours()} for available colour names), or the complete folder path (in quotes and including the file name and extension) to a .png image (see examples). Defaults to "white".}
 }
 \details{
 }

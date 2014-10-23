@@ -1,4 +1,4 @@
-visCount <- function(Nmax = 100, Nmin = 10, shape = 20, size = 1, col = "black", bg = "lightblue") {
+visCount <- function(Nmax = 100, Nmin = 10, shape = 20, size = 1, col = "black", bg = "white") {
   
   if (length(grep(".png", c(shape, bg)) > 0) & !("png" %in% rownames(installed.packages())))  return(message("Using .png images requires the 'png' R package - please install it [ install.packages('png') ] and try again."))
   
