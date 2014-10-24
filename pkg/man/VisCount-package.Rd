@@ -34,17 +34,21 @@ visual count estimates.
 \examples{
 \dontrun{
 
-# MINIMUM WORKFLOW:
+# BASIC WORKFLOW:
 
-getSavedResults()  # do this at the start of any new VisCount session
+getSavedResults()  # at the start of any new VisCount session
 
 visCount()  # repeat as desired (additional options below)
 
+removeTypo()  # if necessary
+
 saveResults()  # do this before quitting R
 
+visCountStats()
 
 
-# COMPLETE WORKFLOW:
+
+# IN MORE DETAIL:
 
 # load previous VisCount results
 # (if you've used VisCount before on this computer):
